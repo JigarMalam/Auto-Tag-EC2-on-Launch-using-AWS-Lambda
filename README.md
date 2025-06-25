@@ -36,7 +36,7 @@ Automatically add the following tags to every newly launched EC2 instance:
 1. Go to **AWS Lambda > Create Function**
 2. Set:
    - Name: `AutoTagNewEC2`
-   - Runtime: Python 3.x
+   - Runtime: Python 3.13
    - Execution role: Use existing role `LambdaEC2TaggingRole`
 
 3. Code:
